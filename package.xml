@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>nexus_4wd_mecanum_gazebo</name>
+  <version>0.1.0</version>
+  <description>The package for the Gazebo plugins and worlds of the nexus 4WD mecanum robot.</description>
+
+  <author email="r-baran@hotmail.fr">Robin Baran</author>
+  <maintainer email="r-baran@hotmail.fr">Robin Baran</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>trajectory_msgs</depend>
+
+  
+  <build_depend>gazebo_dev</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>gazebo-dev</build_depend>
+  
+  
+  <exec_depend>gazebo_dev</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>gazebo</exec_depend>
+  
+   
+  <export>
+    <build_type>ament_cmake</build_type>
+    <deprecated>
+      This package has been deprecated as of January 2025 with Gazebo classic 11 reaching
+      end-of-life. Users are highly encouraged to migrate to the new Gazebo
+      using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration)
+    </deprecated>
+  </export>
+</package>
